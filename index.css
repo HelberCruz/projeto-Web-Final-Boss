@@ -98,17 +98,20 @@ body{
         border-color: #ff6f61;
         border-radius: 5px;
         width: 573.5px;
+        height: 45px;
         margin-right: 115px;
+        padding-left: 10px;
+        font-size: 20px;
     }
 
 .cabecalho3_3{
     display: flex;
-    align-items: end;
+    align-items: center;
 }
 
     .cabecalho3_3_1{
-        width: 55px;
-        height: 35px;
+        width: 65px;
+        height: 45px;
         border-radius: 5px;
         border: solid 1px #ff6f61;
         margin-right: 15px; 
@@ -118,7 +121,12 @@ body{
 
     .fa-heart{
         color: #ff6f61; 
-           padding: 8px 7px 7px 9px;
+        padding: 12px 7px 7px 9px;
+    }
+
+    .fa-cart-shopping{
+        color: #ff6f61; 
+        padding: 12px 7px 7px 9px;
     }
 
     .cabecalho3_3_2{
@@ -162,8 +170,39 @@ body{
 
     .cabecalho4_2{
         width: 573.5px;
-        margin-right: 42px;
+        background-image: url(imgs/slider-3.jpg);
+        background-repeat: no-repeat;
+        text-shadow: 2px 2px 2px #1f1f1f; 
+        background-size: contain;
+        background-position: center center; 
+        text-align: center;    
+         
+        padding: 200px 100px 230px 100px;
     }
+
+        .cabecalho4_2_1{
+            height: 250px;
+            background-size: 200px 0px;
+            background-color: #ff6f61;
+            opacity: 0.7;
+        }
+
+            .cabecalho4_2_1_1{
+                opacity: 1;
+                padding-top: 50px;
+            }
+
+        #text4{
+            color: white;
+            margin-bottom: 25px;
+        }
+
+        .botao4{
+            background-color: white;
+            color: #ff6f61;
+            border: none;
+            border-radius: 3px;
+        }
     
     .cabecalho4_3{
         width: 250px;
@@ -187,6 +226,16 @@ body{
     padding-left: 60px;
     padding-right: 60px;
 }
+
+    .icon6{
+        color: #ff6f61;
+        font-size: 70px;
+    }
+
+    .cab6{
+        margin-top: 10px;
+        margin-bottom: 8px;
+    }
 
     .cabecalho6_1{
         background-color: white;
@@ -248,14 +297,17 @@ body{
 
     .cabecalho8_2_1{
         display: flex;
+        
     }
         .cabecalho8_2_1_1{
     
         width: 30px;
-        height: 25px;
+        height: 30px;
         border-radius: 5px;
         border: solid 1px #ff6f61;
         margin-right: 15px;
+        text-align: center;
+        padding-top: 5px;
         }
 
 .container9{
@@ -297,25 +349,46 @@ padding-right: 60px;
             width: 275px;
             height: 80px;
             color: white;
-            display: flex;
             justify-content: center;
             align-items: center;
+            align-content: center;
+            text-align: center;
     
             background-color: black;
             padding: 10px;
         }
 
-            .cabecalho9_1_1_1{
+            .cabecalho9_1_3_1{
                 display: flex;
+                justify-content: center;
+            }
+            
+            .star{
+                color: #ff6f61;
+                margin-top: 8px;
             }
 
-            #botao9{
+            .cabecalho9_1_1_1{
+                display: flex;
+                padding-left: 15px;
+            }
+
+            .cabecalho9_1_1_2{
+                padding-right: 10px;
+            }
+
+            .botao9{
                 background-color: #ff6f61;
-                color: black;
                 border-radius: 4px;
                 border: none;
-                width: 70px;
+                width: 130px;
                 height: 40px;
+            }
+
+            .botao09{
+                color: black;
+                padding-left: none;
+                font-size: 15px;
             }
 
     .redline2{
@@ -325,14 +398,21 @@ padding-right: 60px;
     #search2{
         height: 40px;
         border-color: #ff6f61;
-        border-radius: 5px;
-        width: 400px;
+        padding-left: 10px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        width: 300px;
         border: none;
+        font-size: 16px;
     }
 
     #submit{
+        width: 80px;
+        text-align: center;
+        padding-top: 7px;
         border: solid 1px white;
-        border-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
     }
 
 .container10{
@@ -360,7 +440,20 @@ padding-right: 60px;
     }
 
         .padd10{
-            padding: 15px 15px 15px 15px;
+            padding: 15px 15px 15px 0px;
+        }
+
+        .cabecalho10_2_3{
+            justify-content: flex-start;
+        }
+
+        .star10{
+            color: #ff6f61;
+            margin-top: 8px;
+        }
+
+        .p10{
+            margin-top: 5px;
         }
 
 .container11{
@@ -370,12 +463,31 @@ padding-right: 60px;
     align-items: center;
 }
 
+    .boxrede11{
+        display: flex;
+    }
+
+        .redes11{
+            width: 30px;
+            height: 30px;
+            border-radius: 5px;
+            border: solid 1px #888888;
+            margin-right: 15px;
+            text-align: center;
+            padding-top: 7px;
+            margin-top: 20px;
+        }
+
     .cabecalho11_1{
         width: 300px;
         height: 200px;
         padding: 25px 5px 5px 5px;
         background-color: white;
     }
+
+        .sr11{
+            font-size: 12px;
+        }
 
     .cabecalho111{
         margin-left: 60px;
@@ -454,6 +566,4 @@ padding-right: 60px;
     .cabecalho13_1{
         display: flex;
     }
-
-    /* icones */
-
+    
